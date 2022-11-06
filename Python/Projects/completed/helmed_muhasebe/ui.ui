@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Helmed</class>
+ <widget class="QMainWindow" name="Helmed">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>932</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(106, 127, 255);
+</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>931</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">KG FİYATINDAN ADET FİYATI HESAPLAMA
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="KG">
+     <attribute name="title">
+      <string>KİLOGRAMDAN ADET FİYATI HESAPLAMA</string>
+     </attribute>
+     <widget class="QSplitter" name="splitter">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>441</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;ÖLÇÜ         :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="olcu">
+       <property name="styleSheet">
+        <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>30*30*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>30*30*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>40*40*2,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>40*40*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>40*40*3,2mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>40*40*3,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>40*40*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>40*40*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>45*45*3,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>45*45*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>45*45*4,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>45*45*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>50*50*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>50*50*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>50*50*4,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>50*50*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>50*50*5,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60*60*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60*60*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60*60*4,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60*60*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60*60*5,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>60*60*6mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>65*65*2mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>65*65*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>70*70*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>70*70*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>70*70*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>70*70*7mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>80*80*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>80*80*4,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>80*80*7mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 40*40*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 40*40*3,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 40*40*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 40*40*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 45*45*3,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 45*45*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 45*45*4,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 45*45*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 50*50*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 50*50*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 50*50*4,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 50*50*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 50*50*5,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 60*60*3mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 60*60*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 60*60*4,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 60*60*5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 60*60*5,5mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 60*60*6mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 65*65*4mm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BEYAZ 70*70*5mm</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>220</y>
+        <width>441</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_cm">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;UZUNLUK(CM):&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="uzunlukspn">
+       <property name="styleSheet">
+        <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="maximum">
+        <number>10000000</number>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QSplitter" name="splitter_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>441</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_kg">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;KG FİYATI :   &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="kgspn">
+       <property name="styleSheet">
+        <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="maximum">
+        <number>1000000</number>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QSplitter" name="splitter_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>150</y>
+        <width>368</width>
+        <height>46</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_agirlik">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;AĞIRLIK(GR):&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="agirlik">
+       <property name="styleSheet">
+        <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QSplitter" name="splitter_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>280</y>
+        <width>481</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_kgadet">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;ADET FİYATI:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="fiyat_sonuc">
+       <property name="minimumSize">
+        <size>
+         <width>361</width>
+         <height>171</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>361</width>
+         <height>171</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:22pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QSplitter" name="splitter_6">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>230</y>
+        <width>201</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QPushButton" name="btn_hesapla">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(89, 209, 133);
+font: 63 18pt &quot;Segoe UI Semibold&quot;;</string>
+       </property>
+       <property name="text">
+        <string>HESAPLA</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_sifirla">
+       <property name="styleSheet">
+        <string notr="true">background-color : rgb(231, 165, 69);
+font: 63 18pt &quot;Segoe UI Semibold&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SIFIRLA</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_cikis">
+       <property name="styleSheet">
+        <string notr="true">font: 63 18pt &quot;Segoe UI Semibold&quot;;
+background-color:rgb(240, 112, 103);</string>
+       </property>
+       <property name="text">
+        <string>ÇIKIŞ</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="baslik_kg">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 22pt &quot;MS PGothic&quot;;</string>
+      </property>
+      <property name="text">
+       <string>KG FİYATINDAN ADET FİYATI HESAPLAMA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>ADETTEN KİLOGRAM FİYATI HESAPLAMA</string>
+     </attribute>
+     <widget class="QPushButton" name="btn_cikis_3">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>374</y>
+        <width>201</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 63 18pt &quot;Segoe UI Semibold&quot;;
+background-color:rgb(240, 112, 103);</string>
+      </property>
+      <property name="text">
+       <string>ÇIKIŞ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_hesapla_3">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>230</y>
+        <width>201</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(89, 209, 133);
+font: 63 18pt &quot;Segoe UI Semibold&quot;;</string>
+      </property>
+      <property name="text">
+       <string>HESAPLA</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_sifirla_3">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>302</y>
+        <width>201</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : rgb(231, 165, 69);
+font: 63 18pt &quot;Segoe UI Semibold&quot;;</string>
+      </property>
+      <property name="text">
+       <string>SIFIRLA</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="baslik_kg_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>571</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 22pt &quot;MS PGothic&quot;;</string>
+      </property>
+      <property name="text">
+       <string>ADET FİYATINDAN KG FİYATI HESAPLAMA</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>97</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;ÖLÇÜ         :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="adet_agirlik">
+      <property name="geometry">
+       <rect>
+        <x>601</x>
+        <y>130</y>
+        <width>247</width>
+        <height>46</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_agirlik_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>130</y>
+        <width>116</width>
+        <height>46</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;AĞIRLIK(GR):&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="uzunlukspn_3">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>190</y>
+        <width>240</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="maximum">
+       <number>10000000</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_cm_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>196</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;UZUNLUK(CM):&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_adet_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>188</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;ADET FİYATI : &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="fiyat_sonuc_3">
+      <property name="geometry">
+       <rect>
+        <x>131</x>
+        <y>270</y>
+        <width>361</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>361</width>
+        <height>171</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>361</width>
+        <height>171</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:22pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_kg_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>116</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;KG FİYATI:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="adet_fiyat">
+      <property name="geometry">
+       <rect>
+        <x>166</x>
+        <y>70</y>
+        <width>291</width>
+        <height>46</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="olcu_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>130</y>
+        <width>364</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color : rgb(202, 206, 188);
+font: 22pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>30*30*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>30*30*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40*40*2,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40*40*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40*40*3,2mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40*40*3,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40*40*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40*40*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>45*45*3,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>45*45*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>45*45*4,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>45*45*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50*50*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50*50*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50*50*4,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50*50*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50*50*5,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60*60*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60*60*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60*60*4,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60*60*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60*60*5,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60*60*6mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>65*65*2mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>65*65*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70*70*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70*70*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70*70*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70*70*7mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>80*80*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>80*80*4,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>80*80*7mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 40*40*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 40*40*3,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 40*40*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 40*40*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 45*45*3,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 45*45*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 45*45*4,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 45*45*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 50*50*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 50*50*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 50*50*4,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 50*50*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 50*50*5,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 60*60*3mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 60*60*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 60*60*4,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 60*60*5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 60*60*5,5mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 60*60*6mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 65*65*4mm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BEYAZ 70*70*5mm</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="baslik_kg_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>70</y>
+        <width>401</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 22pt &quot;MS PGothic&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;HESAPLAMALARDA NOKTA (.) KULLANINIZ.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>932</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>btn_sifirla</tabstop>
+  <tabstop>btn_cikis</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>kgspn</tabstop>
+  <tabstop>uzunlukspn</tabstop>
+  <tabstop>agirlik</tabstop>
+  <tabstop>olcu</tabstop>
+  <tabstop>fiyat_sonuc</tabstop>
+  <tabstop>btn_hesapla</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../../Downloads/test.qrc"/>
+ </resources>
+ <connections/>
+</ui>
