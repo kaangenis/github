@@ -5,7 +5,7 @@
 #and
 #mantık konusundaki "ve" bağlacı
 #her iki degerin de doğru olması sonucu verecektir.
-
+"""
 x = 5 
 
 deneme1 = x <10 and x>3 #True
@@ -35,3 +35,23 @@ deneme6 = not(y < 5) #True
 
 print(deneme5)
 print(deneme6)
+
+"""
+
+grade = str(input("Harf Giriniz: "))
+grade = grade.upper()
+
+
+match grade:
+    case "A":
+        print("F Değeri Girdiniz.")
+        
+    case "B":
+        print("B Değeri Girdiniz.")
+        
+    case "C":
+        print("C Değeri Girdiniz.")
+        
+    case _:
+        print("Uygun Olmayan Bir Değer Girdiniz.")
+        
