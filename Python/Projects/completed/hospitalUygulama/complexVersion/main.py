@@ -190,16 +190,19 @@ def kayitDuzenle():
         #duzenle = "UPDATE HASTAKAYIT SET İsim = 'Mehmet Kaan' WHERE İsim = 25066068161 "
         duzenle = "UPDATE HASTAKAYIT SET TCKN = ? WHERE TCKN = ? "
         #input2 = ui.ui.lineDuzenle.text()
-        i1 = input("Nere Degisecek: ")
-        i2 = input("Ne ile degisecek: ")
+        i1 = ui.ui.lineDuzenle_2.text()
+        i2 = ui.ui.lineDuzenle.text()
         cursor.execute(duzenle, (i1,i2))
         conn.commit()
+        ui.ui.lineDuzenle.clear()
+        ui.ui.lineDuzenle_2.clear()
         print("Duzenlendi.")
 
 
     ui.ui.btnAnaSayfa.clicked.connect(anasayfaShow)
     ui.ui.btnAnaSayfa.clicked.connect(duzenlePageKapat)
     ui.ui.btnDuzenle.clicked.connect(kayitDuzenle)
+    ui.ui.btnDuzenle.clicked.connect(duzenleDatabase)
 
 
 

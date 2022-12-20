@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>751</width>
-    <height>622</height>
+    <width>816</width>
+    <height>652</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -155,10 +155,10 @@
    <widget class="QLineEdit" name="lineDuzenle">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>160</x>
       <y>510</y>
       <width>291</width>
-      <height>41</height>
+      <height>31</height>
      </rect>
     </property>
    </widget>
@@ -183,22 +183,22 @@
      <rect>
       <x>30</x>
       <y>510</y>
-      <width>101</width>
-      <height>41</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 36pt &quot;.AppleSystemUIFont&quot;;</string>
+     <string notr="true">font: 24pt &quot;.AppleSystemUIFont&quot;;</string>
     </property>
     <property name="text">
-     <string>TCKN:</string>
+     <string>Eski Değer:</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnDuzenle">
     <property name="geometry">
      <rect>
       <x>560</x>
-      <y>470</y>
+      <y>490</y>
       <width>181</width>
       <height>51</height>
      </rect>
@@ -214,7 +214,7 @@
     <property name="geometry">
      <rect>
       <x>560</x>
-      <y>520</y>
+      <y>540</y>
       <width>181</width>
       <height>51</height>
      </rect>
@@ -226,13 +226,39 @@
      <string>Ana Sayfaya Dön</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>550</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 24pt &quot;.AppleSystemUIFont&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Yeni Değer:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineDuzenle_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>550</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>751</width>
+     <width>816</width>
      <height>24</height>
     </rect>
    </property>
