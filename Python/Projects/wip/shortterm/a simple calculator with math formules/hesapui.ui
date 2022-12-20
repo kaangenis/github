@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>334</width>
-    <height>444</height>
+    <width>350</width>
+    <height>482</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
    <widget class="QPushButton" name="btn_1">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>130</x>
       <y>320</y>
       <width>61</width>
       <height>71</height>
@@ -37,7 +37,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_2">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>200</x>
       <y>320</y>
       <width>61</width>
       <height>71</height>
@@ -54,7 +54,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_3">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>270</x>
       <y>320</y>
       <width>61</width>
       <height>71</height>
@@ -71,7 +71,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_6">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>270</x>
       <y>240</y>
       <width>61</width>
       <height>71</height>
@@ -88,7 +88,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_5">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>200</x>
       <y>240</y>
       <width>61</width>
       <height>71</height>
@@ -105,7 +105,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_4">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>130</x>
       <y>240</y>
       <width>61</width>
       <height>71</height>
@@ -122,7 +122,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_7">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>130</x>
       <y>160</y>
       <width>61</width>
       <height>71</height>
@@ -139,7 +139,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_8">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>200</x>
       <y>160</y>
       <width>61</width>
       <height>71</height>
@@ -156,7 +156,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_9">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>270</x>
       <y>160</y>
       <width>61</width>
       <height>71</height>
@@ -173,7 +173,7 @@ background-color: rgb(141, 141, 141);</string>
    <widget class="QPushButton" name="btn_0">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>10</x>
       <y>320</y>
       <width>111</width>
       <height>71</height>
@@ -191,7 +191,7 @@ background-color: rgb(141, 141, 141);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>20</y>
       <width>61</width>
       <height>111</height>
      </rect>
@@ -202,13 +202,13 @@ font: 20pt &quot;MS Shell Dlg 2&quot;;
 background-color: rgb(72, 82, 167);</string>
     </property>
     <property name="text">
-     <string>&lt;</string>
+     <string>=</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_topla">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>10</x>
       <y>240</y>
       <width>51</width>
       <height>71</height>
@@ -225,7 +225,7 @@ background-color: rgb(72, 82, 167);</string>
    <widget class="QPushButton" name="btn_bolme">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>70</x>
       <y>160</y>
       <width>51</width>
       <height>71</height>
@@ -242,7 +242,7 @@ background-color: rgb(72, 82, 167);</string>
    <widget class="QPushButton" name="btn_cikar">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>70</x>
       <y>240</y>
       <width>51</width>
       <height>71</height>
@@ -259,7 +259,7 @@ background-color: rgb(72, 82, 167);</string>
    <widget class="QPushButton" name="btn_carp">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>10</x>
       <y>160</y>
       <width>51</width>
       <height>71</height>
@@ -277,7 +277,7 @@ background-color: rgb(72, 82, 167);</string>
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>10</y>
+      <y>20</y>
       <width>251</width>
       <height>111</height>
      </rect>
@@ -294,8 +294,8 @@ background-color: rgb(141, 141, 141);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>334</width>
-     <height>21</height>
+     <width>350</width>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuHESAPLA">

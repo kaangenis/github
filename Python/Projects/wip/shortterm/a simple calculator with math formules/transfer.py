@@ -1,4 +1,30 @@
-from PyQt5 import uic
+l1 = []
+l2 = []
+l3 = []
 
-with open('Arayuz_1_1.py', 'w', encoding="utf-8") as fout:
-    uic.compileUi('hesapui.ui', fout)
+x = 0
+adetInput = int(input("Kac adet sayi girilecek: "))
+
+while x < adetInput:
+    firstInput = input(str("Sayi Giriniz: "))
+    l1.append(firstInput)
+    x += 1
+
+while l1 != []:
+    sonuc = int(l1[0]) ** len(l1[0])
+    l2.append(sonuc)
+    l3.append(l1[0])
+    l1.pop(0)
+
+
+print("Girdiğiniz Değerler: ",l3)
+print("Girdiğiniz Değerlerin Basamaklarına Göre Üs Sonuçları: " ,l2)
+
+
+
+
+
+
+
+
+

@@ -100,7 +100,7 @@ class Ui_MainWindow(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">13.00</p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">15.00</p></body></html>"))
         self.label_5.setText(_translate("MainWindow", "Sıhhiye - Beytepe Hareket Saatleri:  "))
-        self.label_6.setText(_translate("MainWindow", "<html><head/><body><p>Kalkış : Gün Hastanesi Önü</p><p>Ücret : 10 TL</p></body></html>"))
-        self.label_7.setText(_translate("MainWindow", "<html><head/><body><p>Kalkış : Diş Hekimliği Fakültesi Önü</p><p>Ücret: 10 TL</p></body></html>"))
+        self.label_6.setText(_translate("MainWindow", "<html><head/><body><p>Kalkış : Gün Hastanesi Önü</p><p>Ücret : 3.5 TL</p></body></html>"))
+        self.label_7.setText(_translate("MainWindow", "<html><head/><body><p>Kalkış : Diş Hekimliği Fakültesi Önü</p><p>Ücret: 3.5 TL</p></body></html>"))
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:24pt;\">Beytepe - Sıhhiye Kampüs Ring Servisleri : </span></p></body></html>"))
         self.label_8.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:24pt;\">Semt Servisleri : </span></p></body></html>"))

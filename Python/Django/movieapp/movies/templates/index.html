@@ -1,0 +1,26 @@
+<title>
+    İlk Web Sayfam
+</title>
+
+<head>
+    HomePage
+</head>
+
+<body>
+
+<button onclick='parent.location="moviepage"'  >
+
+    Filmler Sayfasına Git
+
+</button>
+
+<ul>
+
+    {% for kategori in kategoriler %}
+        <li>{{kategori}}</li>
+    {% endfor %}
+
+</ul>
+
+
+</body>

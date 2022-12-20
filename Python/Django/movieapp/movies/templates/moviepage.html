@@ -1,0 +1,39 @@
+{% load static %}
+
+
+
+<title>
+    Movies
+</title>
+
+<head>
+    Movies Sayfasına Hoşgeldiniz
+</head>
+
+<body>
+<button onclick='parent.location="home"'  >
+
+    Ana Sayfa
+
+</button>
+
+
+<ul>
+
+    {% for film in filmler %}
+        {% if film.film_Anasayfa %}
+            <div>
+                <p>{{film.film_Adi}}</p>
+                <p>{{film.film_Turu}}</p>
+                <p>{{film.film_Yonetmen}}</p>
+                <p>{{film.film_Sure}}</p>
+                <p>{{film.film_CikisYili}}</p>
+                <!--<img src="{% static 'img/'|add:film.film_Logo %}">-->
+                <img src="{{film.film_Logo}}">
+            </div>
+        {% endif %}
+    {% endfor %}
+
+</ul>
+
+</body>
